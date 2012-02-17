@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>jQuery hint demo</title>
+		<style type="text/css">
+			.hint {
+				padding: 4px 0 0 4px;
+			}
+		</style>
+		<script type="text/javascript" src="jquery-1.7.min.js"></script>
+		<script type="text/javascript" src="jquery.hint.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//get rid of the textboxes padding and use our custom one in the styles
+				//as we aren't using a reset stylesheet
+				$.hint({ skipStyles: ['padding-top', 'padding-right', 'padding-bottom', 'padding-left'] });
+			});
+		</script>
+	</head>
+	<body>
+		<div>
+			<p><input type="text" title="Search..." name="search" /></p>
+			<p><input type="text" title="Enter email" name="email" /></p>
+		</div>
+	</body>
+</html>
