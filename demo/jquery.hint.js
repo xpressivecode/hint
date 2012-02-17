@@ -79,8 +79,8 @@
             lbl.addClass(settings.className);
         
             lbl.css('position', 'absolute');
-            lbl.css('top', txt.position().top);
-            lbl.css('left', txt.position().left);
+            lbl.css('top', txt.offset().top);
+            lbl.css('left', txt.offset().left);
             
             if(settings.cloneStyles){
                 $.each(settings.styles, function(index, style){
