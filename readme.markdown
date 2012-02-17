@@ -28,7 +28,7 @@ You can pass in optional settings to the plugin which will modify it's behavior 
 Settings:
 ---------
 
-className: 
+	className: 
         default value: 'hint'
         use: applied to the span so that you can target it for styling
              so that you can give it an italic look if you want etc
@@ -56,4 +56,3 @@ className:
         example: if you want to omit the padding but retain the rest of your textboxes css attributes then you could pass in
         $.hint({ skipStyles: ['padding-top', 'padding-right', 'padding-bottom', 'padding-left'] });
 
-        
