@@ -55,3 +55,5 @@ className:
         use: if you want to keep the majority of the styles to clone them, but want to omit just a few, then use this setting to skip them
         example: if you want to omit the padding but retain the rest of your textboxes css attributes then you could pass in
         $.hint({ skipStyles: ['padding-top', 'padding-right', 'padding-bottom', 'padding-left'] });
+
+        
