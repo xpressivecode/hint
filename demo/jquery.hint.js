@@ -66,7 +66,6 @@
         }
             
         var settings = $.extend({}, defaults, options);
-        console.log(settings);
         $(':input[title]').each(function(){
             var txt = $(this);
             
@@ -74,6 +73,9 @@
             var lbl = $('<' + settings.element + '>');
             
             lbl.text(title);
+            if(txt.val() != ''){
+                txt.hide();
+            }
                
             lbl.css('color', settings.color);
             lbl.addClass(settings.className);
