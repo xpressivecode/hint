@@ -6,6 +6,8 @@ This helps to avoid the situation of validating your form submissions against th
 when a user blindly submits a form. The textboxes value will be empty as this solution uses a
 span overlay instead of modifying the value of your textboxes.
 
+http://xpressivecode.com/open-source/jquery-hint-plugin.aspx
+
 Usage:
 ------
 
