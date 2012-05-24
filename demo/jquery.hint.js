@@ -74,7 +74,7 @@
             
             lbl.text(title);
             if(txt.val() != ''){
-                txt.hide();
+                lbl.hide();
             }
                
             lbl.css('color', settings.color);
